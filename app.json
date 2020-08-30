@@ -17,7 +17,21 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "carlosocarvalho.com.br.driverCarAppUser",
+      "buildNumber": "1.0.0",
+      "config": {
+        "googleMapsApiKey": "AIzaSyDcOsXiERss0-qm37I_UKaKd0ZzPzamrKs"
+      }
+    },
+    "android": {
+      "package": "carlosocarvalho.com.br.driverCarAppUser",
+      "versionCode": 1,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDcOsXiERss0-qm37I_UKaKd0ZzPzamrKs"
+        }
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
